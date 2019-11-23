@@ -1,0 +1,11 @@
+File -> preferences
+Click button all the way to the left of "Additional Boards Manager"
+click "Click for a list of unofficial boards support URLs"
+copy paste adafruit boards
+click ok
+Tools -> board -> board manager
+make sure that Arduino AVR boards, Arduino SAMD boards, Adafruit AVR Boards and Adafruit SAMD board are installed
+close the boards manager
+Tools -> board -> Select the connected board (most likely Adafruit feather m0 or Adafruit feather 32u4)
+Tools -> port -> make sure the selected port is "COM[#] (Adafruit feather m0 or Adafruit feather 32u4)
+Upload the shit out of it :)
